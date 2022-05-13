@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation= "bibliotecaXsdRestriction.xsd">
+    <LIBROS>
+
+        <Libro id="L0001"  num_paginas_libro="200">
+            <tipo_clase>novela</tipo_clase>
+            <Titulo_libro>El Señor de los anillos: La Comunidad del Anillo</Titulo_libro>
+            <indice_libro>
+                <capitulo num_capitulo="1" num_paginas_cap="100">
+                    <contenido_cap enlace_libro="http://web.seducoahuila.gob.mx/biblioweb/upload/J.R.R.%20Tolkien%20La%20Comunidad%20del%20anillo%20I.pdf"></contenido_cap>
+                    <titulo_capitulo>"De los hobbits"</titulo_capitulo>
+                </capitulo>
+                <capitulo num_capitulo="2" num_paginas_cap="80">
+                    <contenido_cap enlace_libro="http://web.seducoahuila.gob.mx/biblioweb/upload/J.R.R.%20Tolkien%20La%20Comunidad%20del%20anillo%20I.pdf"></contenido_cap>
+                    <titulo_capitulo>"De la hierba para pipa"</titulo_capitulo>
+                </capitulo>
+                <capitulo num_capitulo="3" num_paginas_cap="20">
+                    <contenido_cap enlace_libro="http://web.seducoahuila.gob.mx/biblioweb/upload/J.R.R.%20Tolkien%20La%20Comunidad%20del%20anillo%20I.pdf "></contenido_cap>
+                    <titulo_capitulo>"De la ordenación de la Comarca"</titulo_capitulo>
+                </capitulo>
+            </indice_libro>
+            <sipnosis>Resumen del libro: narra el viaje del protagonista principal, Frodo Bolsón, 
+            hobbit de la Comarca, para destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, 
+            ya que es la principal fuente de poder de su creador, el Señor oscuro, Sauron.
+            </sipnosis>
+
+
+        </Libro>
+
+        <Libro id="L0002"  num_paginas_libro="70">
+            
+            <tipo_clase>infantil</tipo_clase>
+            <Titulo_libro>El Patito Feo</Titulo_libro>
+            <indice_libro>
+                <capitulo num_capitulo="1" num_paginas_cap="15">
+                    <contenido_cap enlace_libro="http://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/ElPrincipito.pdf"></contenido_cap>
+                    <titulo_capitulo>"Capitulo I"</titulo_capitulo>
+                </capitulo>
+                <capitulo num_capitulo="2" num_paginas_cap="35">
+                    <contenido_cap enlace_libro="http://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/ElPrincipito.pdf"></contenido_cap>
+                    <titulo_capitulo>"Capitulo II"</titulo_capitulo>
+                </capitulo>
+                <capitulo num_capitulo="3" num_paginas_cap="20">
+                    <contenido_cap enlace_libro="http://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/ElPrincipito.pdf"></contenido_cap>
+                    <titulo_capitulo>"Capitulo III"</titulo_capitulo>
+                </capitulo>
+            </indice_libro>
+
+            <sipnosis>Resumen del libro: trata de la historia de un pequeño príncipe que parte de su asteroide a una travesía por el universo, en la cual descubre 
+            la extraña forma en que los adultos ven la vida y comprende el valor del amor y la amistad.
+            </sipnosis>   
+
+        </Libro>
+
+        <Libro id="L0003"  num_paginas_libro="70">
+            <tipo_clase>didactico</tipo_clase>
+            <Titulo_libro>Aprende a programar en Edix</Titulo_libro>
+            <indice_libro>
+                <capitulo num_capitulo="1" num_paginas_cap="15">
+                    <contenido_cap enlace_libro="https://www.edix.com/es/"></contenido_cap>
+                    <titulo_capitulo>"Aprende HTML"</titulo_capitulo>
+                </capitulo>
+                <capitulo num_capitulo="2" num_paginas_cap="35">
+                    <contenido_cap enlace_libro="https://www.edix.com/es/"></contenido_cap>
+                    <titulo_capitulo>"Aprende CSS"</titulo_capitulo>
+                </capitulo>
+                <capitulo num_capitulo="3" num_paginas_cap="20">
+                    <contenido_cap enlace_libro="https://www.edix.com/es/"></contenido_cap>
+                    <titulo_capitulo>"Aprende XSD"</titulo_capitulo>
+                </capitulo>
+            </indice_libro>
+
+            <sipnosis>Somos la escuela que crea a los profesionales digitales que necesitan las empresas. Estamos aquí para hacer tu Revolución Profesional. Formamos a Digital Workers. Lo hacemos a 
+            través de nuestra escuela de profesiones digitales y de Formación Profesional (FP) a distancia.
+            </sipnosis> 
+        </Libro>
+
+    </LIBROS>
+
+    <REVISTAS>
+
+        <Revista id="R0001"  num_paginas_revista="300">
+            <tipo_clase_revista>informatica</tipo_clase_revista>
+            <Titulo_revista>Aprende a Programar de 0</Titulo_revista>
+            <numero_revista>1</numero_revista>
+            <indice_revista>
+                <seccion_revista num_seccion="1" num_paginas_rev="100">
+                    <Titulo_seccion>Aprende Java</Titulo_seccion>
+                    <contenido_revista enlace="https://www.java.com/es/"></contenido_revista>
+                </seccion_revista>
+                 <seccion_revista num_seccion="2" num_paginas_rev="100">
+                    <Titulo_seccion>Aprende Html</Titulo_seccion>
+                    <contenido_revista enlace="https://developer.mozilla.org/es/docs/Web/HTML"></contenido_revista>
+                </seccion_revista>
+                 <seccion_revista num_seccion="3" num_paginas_rev="100">
+                    <Titulo_seccion>Aprende Xml</Titulo_seccion>
+                    <contenido_revista enlace="https://developer.mozilla.org/es/docs/Web/XML/XML_introduction"></contenido_revista>
+                </seccion_revista>
+            </indice_revista>
+
+        </Revista>
+
+        <Revista id="R0002"  num_paginas_revista="250">
+            <tipo_clase_revista>corazon</tipo_clase_revista>
+            <Titulo_revista>Hola !</Titulo_revista>
+            <numero_revista>1</numero_revista>
+            <indice_revista>
+                <seccion_revista num_seccion="1" num_paginas_rev="50">
+                    <Titulo_seccion>La vida de Isa Pantoja</Titulo_seccion>
+                    <contenido_revista enlace="https://www.hola.com/"></contenido_revista>
+                </seccion_revista>
+                 <seccion_revista num_seccion="2" num_paginas_rev="100">
+                    <Titulo_seccion>La vida de Nadal</Titulo_seccion>
+                    <contenido_revista enlace="https://www.hola.com/"></contenido_revista>
+                </seccion_revista>
+                 <seccion_revista num_seccion="3" num_paginas_rev="100">
+                    <Titulo_seccion>La vida de Felipe VI</Titulo_seccion>
+                    <contenido_revista enlace="https://www.hola.com/"></contenido_revista>
+                </seccion_revista>
+            </indice_revista> 
+            
+        </Revista>
+
+        <Revista id="R0003"  num_paginas_revista="200">
+            <tipo_clase_revista>coches</tipo_clase_revista>
+            <Titulo_revista>Revista Motor !</Titulo_revista>
+            <numero_revista>1</numero_revista>
+            <indice_revista>
+                <seccion_revista num_seccion="1" num_paginas_rev="50">
+                    <Titulo_seccion>Coches BMW</Titulo_seccion>
+                    <contenido_revista enlace="https://www.motor.com.co/"></contenido_revista>
+                </seccion_revista>
+                 <seccion_revista num_seccion="2" num_paginas_rev="50">
+                    <Titulo_seccion>Coches Audi</Titulo_seccion>
+                    <contenido_revista enlace="https://www.motor.com.co/"></contenido_revista>
+                </seccion_revista>
+                 <seccion_revista num_seccion="3" num_paginas_rev="100">
+                    <Titulo_seccion>Coches Mercedes</Titulo_seccion>
+                    <contenido_revista enlace="https://www.motor.com.co/"></contenido_revista>
+                </seccion_revista>
+            </indice_revista> 
+
+        </Revista>
+        
+        <Revista id="R0004"  num_paginas_revista="160">
+            <tipo_clase_revista>investigacion</tipo_clase_revista>
+            <Titulo_revista>National Geographic</Titulo_revista>
+            <numero_revista>1</numero_revista>
+            <indice_revista>
+                <seccion_revista num_seccion="1" num_paginas_rev="50">
+                    <Titulo_seccion>Todo sobre animales</Titulo_seccion>
+                    <contenido_revista enlace="https://www.nationalgeographic.com.es/"></contenido_revista>
+                </seccion_revista>
+                 <seccion_revista num_seccion="2" num_paginas_rev="50">
+                    <Titulo_seccion>Todo sobre el mar</Titulo_seccion>
+                    <contenido_revista enlace="https://www.nationalgeographic.com.es/"></contenido_revista>
+                </seccion_revista>
+                 <seccion_revista num_seccion="3" num_paginas_rev="100">
+                    <Titulo_seccion>Todo sobre el espacio</Titulo_seccion>
+                    <contenido_revista enlace="https://www.nationalgeographic.com.es/"></contenido_revista>
+                </seccion_revista>
+            </indice_revista> 
+
+        </Revista> 
+
+        <Revista id="R0005"  num_paginas_revista="160">
+            <tipo_clase_revista>otros</tipo_clase_revista>
+            <Titulo_revista>Cosmopolitan</Titulo_revista>
+            <numero_revista>1</numero_revista>
+            <indice_revista>
+                <seccion_revista num_seccion="1" num_paginas_rev="50">
+                    <Titulo_seccion>Moda</Titulo_seccion>
+                    <contenido_revista enlace="https://www.cosmopolitan.com/es/"></contenido_revista>
+                </seccion_revista>
+                 <seccion_revista num_seccion="2" num_paginas_rev="50">
+                    <Titulo_seccion>Belleza</Titulo_seccion>
+                    <contenido_revista enlace="https://www.cosmopolitan.com/es/"></contenido_revista>
+                </seccion_revista>
+                 <seccion_revista num_seccion="3" num_paginas_rev="100">
+                    <Titulo_seccion>Amor</Titulo_seccion>
+                    <contenido_revista enlace="https://www.cosmopolitan.com/es/"></contenido_revista>
+                </seccion_revista>
+            </indice_revista> 
+
+        </Revista> 
+    </REVISTAS>
+
+    <PERIODICOS>
+        <periodico id="P0001" fecha_publicacion="08/05/2022">
+            <tipo_clase>nacional</tipo_clase>
+            <indice_periodico>
+                <seccion_periodico tipo_seccion="económica">
+                    <articulo autor="Juan">
+                        <titulo_periodico>Declive del Euro</titulo_periodico>
+                        <contenido_periodico enlace_periodico="https://www.elmundo.es/economia/actualidad-economica.html"></contenido_periodico>
+                    </articulo>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="opinión">
+                    <articulo autor="Pedro">
+                        <titulo_periodico>Opinión sobre Ucrania</titulo_periodico>
+                        <contenido_periodico enlace_periodico="https://www.elmundo.es/opinion.html"></contenido_periodico>
+                    </articulo>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="deportes">
+                    <articulo autor="Fernando">
+                        <titulo_periodico>El Real Madrid a un paso de la decimocuarta</titulo_periodico>
+                        <contenido_periodico enlace_periodico="https://www.elmundo.es/deportes.html"></contenido_periodico>
+                    </articulo>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="nacional">
+                    <articulo autor="María">
+                        <titulo_periodico>¿Quién ganará las elecciones?</titulo_periodico>
+                        <contenido_periodico enlace_periodico="https://www.elmundo.es/"></contenido_periodico>
+                    </articulo>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="internacional">
+                    <articulo autor="Ana">
+                        <titulo_periodico>Guerra de Ucrania</titulo_periodico>
+                        <contenido_periodico enlace_periodico="https://www.elmundo.es/internacional.html"></contenido_periodico>
+                    </articulo>
+                </seccion_periodico>
+            </indice_periodico>         
+
+        </periodico>
+
+        <periodico id="P0002" fecha_publicacion="08/05/2022">
+            <tipo_clase>internacional</tipo_clase>
+            <indice_periodico>
+                <seccion_periodico tipo_seccion="económica">
+                    <articulo autor="Maro">
+                        <titulo_periodico>Declive del Euro en UE</titulo_periodico>
+                        <contenido_periodico enlace_periodico="https://www.elmundo.es/economia/actualidad-economica.html"></contenido_periodico>
+                    </articulo>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="opinión">
+                    <articulo autor="Fernando">
+                        <titulo_periodico>Opinión sobre Inglaterra</titulo_periodico>
+                        <contenido_periodico enlace_periodico="https://www.elmundo.es/opinion.html"></contenido_periodico>
+                    </articulo>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="deportes">
+                    <articulo autor="Lucía">
+                        <titulo_periodico>El Real Madrid a un paso de la decimocuarta</titulo_periodico>
+                        <contenido_periodico enlace_periodico="https://www.elmundo.es/deportes.html"></contenido_periodico>
+                    </articulo>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="nacional">
+                    <articulo autor="Sofía">
+                        <titulo_periodico>¿Quién ganará las elecciones UE?</titulo_periodico>
+                        <contenido_periodico enlace_periodico="https://www.elmundo.es/"></contenido_periodico>
+                    </articulo>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="internacional">
+                    <articulo autor="Ana">
+                        <titulo_periodico>Tiempo en la UE</titulo_periodico>
+                        <contenido_periodico enlace_periodico="https://www.elmundo.es/internacional.html"></contenido_periodico>
+                    </articulo>
+                </seccion_periodico>
+            </indice_periodico> 
+            
+        </periodico>
+    </PERIODICOS>
+
+</biblioteca>
